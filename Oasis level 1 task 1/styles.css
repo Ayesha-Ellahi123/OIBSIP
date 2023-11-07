@@ -1,0 +1,93 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styling for the header and navigation menu */
+header {
+    background-color: #740505;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: square;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styling for the hero section */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+     background-attachment: fixed;
+    text-align: center;
+    padding: 100px 100px;
+    color: #3f0909ea;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #882828;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #8a1919;
+}
+
+/* Styling for the sections (menu, about, contact) */
+.menu, .about, .contact {
+    -webkit-text-fill-color: #8a1919;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.menu h2, .about h2, .contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu p, .about p, .contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #740505;
+    color: #b64848;
+    text-align: center;
+    padding: 20px 0;
+}
